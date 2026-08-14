@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280">
+  <style>
+    .title { font: 700 15px 'Segoe UI', sans-serif; fill: #007ACC; }
+    .label { font: 600 13px 'Segoe UI', sans-serif; fill: #1a1a1a; }
+    .small { font: 12px 'Segoe UI', sans-serif; fill: #333; }
+    .muted { font: 11px 'Segoe UI', sans-serif; fill: #555; }
+  </style>
+
+  <rect x="16" y="16" width="888" height="248" rx="12" fill="#F7FBFE" stroke="#007ACC" stroke-width="2"/>
+
+  <!-- Input -->
+  <rect x="40" y="88" width="88" height="96" rx="8" fill="#BFDFF5" stroke="#007ACC"/>
+  <text x="84" y="128" text-anchor="middle" class="label">x</text>
+  <text x="84" y="148" text-anchor="middle" class="small">entrada</text>
+  <text x="84" y="210" text-anchor="middle" class="muted">p. ej. 784</text>
+
+  <!-- Encoder -->
+  <rect x="168" y="64" width="200" height="144" rx="8" fill="#E3F2FD" stroke="#007ACC"/>
+  <text x="268" y="92" text-anchor="middle" class="title">Encoder</text>
+  <text x="268" y="118" text-anchor="middle" class="small">f(x; ¸_e)</text>
+  <rect x="188" y="136" width="160" height="28" rx="5" fill="#BBDEFB" stroke="#007ACC"/>
+  <text x="268" y="155" text-anchor="middle" class="small">capas densas / conv</text>
+  <text x="268" y="192" text-anchor="middle" class="muted">comprime</text>
+
+  <!-- Latent -->
+  <rect x="408" y="100" width="104" height="72" rx="8" fill="#FFECB3" stroke="#F9A825"/>
+  <text x="460" y="132" text-anchor="middle" class="label">z</text>
+  <text x="460" y="152" text-anchor="middle" class="small">latente</text>
+  <text x="460" y="196" text-anchor="middle" class="muted">cuello de botella</text>
+
+  <!-- Decoder -->
+  <rect x="552" y="64" width="200" height="144" rx="8" fill="#FFF8E1" stroke="#F9A825"/>
+  <text x="652" y="92" text-anchor="middle" class="title">Decoder</text>
+  <text x="652" y="118" text-anchor="middle" class="small">g(z; ¸_d)</text>
+  <rect x="572" y="136" width="160" height="28" rx="5" fill="#FFE082" stroke="#F9A825"/>
+  <text x="652" y="155" text-anchor="middle" class="small">capas densas / conv</text>
+  <text x="652" y="192" text-anchor="middle" class="muted">reconstruye</text>
+
+  <!-- Output -->
+  <rect x="792" y="88" width="88" height="96" rx="8" fill="#C8E6C9" stroke="#2E7D32"/>
+  <text x="836" y="128" text-anchor="middle" class="label">x</text>
+  <text x="836" y="148" text-anchor="middle" class="small">salida</text>
+  <text x="836" y="210" text-anchor="middle" class="muted">misma dim. que x</text>
+
+  <!-- Arrows -->
+  <polygon points="136,136 160,128 160,144" fill="#007ACC"/>
+  <line x1="128" y1="136" x2="168" y2="136" stroke="#007ACC" stroke-width="2"/>
+  <polygon points="376,136 400,128 400,144" fill="#007ACC"/>
+  <line x1="368" y1="136" x2="408" y2="136" stroke="#007ACC" stroke-width="2"/>
+  <polygon points="520,136 544,128 544,144" fill="#F9A825"/>
+  <line x1="512" y1="136" x2="552" y2="136" stroke="#F9A825" stroke-width="2"/>
+  <polygon points="760,136 784,128 784,144" fill="#F9A825"/>
+  <line x1="752" y1="136" x2="792" y2="136" stroke="#F9A825" stroke-width="2"/>
+
+  <text x="460" y="40" text-anchor="middle" class="title">Autoencoder: reconstruir x a través de un espacio latente z</text>
+  <text x="460" y="252" text-anchor="middle" class="muted">Entrenamiento: minimizar L(x, x), p. ej. MSE. El objetivo es x, no una etiqueta.</text>
+</svg>

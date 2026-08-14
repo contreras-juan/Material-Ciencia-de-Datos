@@ -102,6 +102,8 @@ Ruta: [`Deep_Learning/Cuadernos/`](Deep_Learning/Cuadernos/)
 | 05 | [05_Convoluciones.ipynb](Deep_Learning/Cuadernos/05_Convoluciones.ipynb) | Introducción a las convoluciones |
 | 06 | [06_CNN.ipynb](Deep_Learning/Cuadernos/06_CNN.ipynb) | Redes neuronales convolucionales (CNN) |
 | 07 | [07_RNN.ipynb](Deep_Learning/Cuadernos/07_RNN.ipynb) | Redes neuronales recurrentes (RNN) |
+| 08 | [8_FT_TL.ipynb](Deep_Learning/Cuadernos/8_FT_TL.ipynb) | Fine-tuning y transfer learning |
+| 09 | [9_Autoencoders.ipynb](Deep_Learning/Cuadernos/9_Autoencoders.ipynb) | Autoencoders |
 
 ---
 
@@ -112,6 +114,9 @@ Ruta: [`Deep_Learning/Ejercicios/`](Deep_Learning/Ejercicios/)
 | # | Cuaderno | Tema |
 |---|----------|------|
 | 01 | [01_Taller_Fundamentos_Redes_Neuronales.ipynb](Deep_Learning/Ejercicios/01_Taller_Fundamentos_Redes_Neuronales.ipynb) | Taller práctico: activaciones, optimizadores, entrenamiento, curvas y callbacks |
+| 02 | [02_Taller_Convoluciones_y_CNN.ipynb](Deep_Learning/Ejercicios/02_Taller_Convoluciones_y_CNN.ipynb) | Taller práctico: convoluciones, filtros, pooling y CNN |
+| 03 | [03_Taller_RNN_LSTM.ipynb](Deep_Learning/Ejercicios/03_Taller_RNN_LSTM.ipynb) | Taller práctico: RNN, LSTM, multipaso y comparación GRU |
+| 04 | [04_Taller_Autoencoders.ipynb](Deep_Learning/Ejercicios/04_Taller_Autoencoders.ipynb) | Taller práctico: autoencoders, denoising y anomalías |
 
 ### Soluciones
 
@@ -120,6 +125,9 @@ Ruta: [`Deep_Learning/Ejercicios/Soluciones/`](Deep_Learning/Ejercicios/Solucion
 | # | Cuaderno | Tema |
 |---|----------|------|
 | 01 | [01_Taller_Fundamentos_Redes_Neuronales_Solucion.ipynb](Deep_Learning/Ejercicios/Soluciones/01_Taller_Fundamentos_Redes_Neuronales_Solucion.ipynb) | Solución de referencia del taller de fundamentos |
+| 02 | [02_Taller_Convoluciones_y_CNN_Solucion.ipynb](Deep_Learning/Ejercicios/Soluciones/02_Taller_Convoluciones_y_CNN_Solucion.ipynb) | Solución de referencia del taller de convoluciones y CNN |
+| 03 | [03_Taller_RNN_LSTM_Solucion.ipynb](Deep_Learning/Ejercicios/Soluciones/03_Taller_RNN_LSTM_Solucion.ipynb) | Solución de referencia del taller de RNN/LSTM |
+| 04 | [04_Taller_Autoencoders_Solucion.ipynb](Deep_Learning/Ejercicios/Soluciones/04_Taller_Autoencoders_Solucion.ipynb) | Solución de referencia del taller de autoencoders |
 
 ---
 
