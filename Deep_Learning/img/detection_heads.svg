@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240">
+  <style>
+    .title { font: 700 15px 'Segoe UI', sans-serif; fill: #007ACC; }
+    .label { font: 600 13px 'Segoe UI', sans-serif; fill: #1a1a1a; }
+    .small { font: 12px 'Segoe UI', sans-serif; fill: #333; }
+    .muted { font: 11px 'Segoe UI', sans-serif; fill: #555; }
+  </style>
+  <rect x="16" y="16" width="888" height="208" rx="12" fill="#F7FBFE" stroke="#007ACC" stroke-width="2"/>
+
+  <rect x="40" y="70" width="110" height="80" rx="8" fill="#BFDFF5" stroke="#007ACC"/>
+  <text x="95" y="108" text-anchor="middle" class="label">imagen</text>
+  <text x="95" y="128" text-anchor="middle" class="small">H�W�3</text>
+
+  <rect x="190" y="70" width="200" height="80" rx="8" fill="#E3F2FD" stroke="#007ACC"/>
+  <text x="290" y="104" text-anchor="middle" class="label">Backbone CNN</text>
+  <text x="290" y="126" text-anchor="middle" class="small">+ Flatten (no GAP)</text>
+
+  <rect x="430" y="40" width="200" height="64" rx="8" fill="#FFECB3" stroke="#F9A825"/>
+  <text x="530" y="68" text-anchor="middle" class="label">Cabeza caja</text>
+  <text x="530" y="88" text-anchor="middle" class="small">4 n�meros (x, y, w, h)</text>
+
+  <rect x="430" y="120" width="200" height="64" rx="8" fill="#C8E6C9" stroke="#2E7D32"/>
+  <text x="530" y="148" text-anchor="middle" class="label">Cabeza clase</text>
+  <text x="530" y="168" text-anchor="middle" class="small">softmax / C clases</text>
+
+  <rect x="680" y="40" width="190" height="64" rx="8" fill="#FFF8E1" stroke="#F9A825"/>
+  <text x="775" y="68" text-anchor="middle" class="label">L_reg (MSE / Huber)</text>
+  <text x="775" y="88" text-anchor="middle" class="small">localizaci�n</text>
+
+  <rect x="680" y="120" width="190" height="64" rx="8" fill="#E8F5E9" stroke="#2E7D32"/>
+  <text x="775" y="148" text-anchor="middle" class="label">L_cls (CE)</text>
+  <text x="775" y="168" text-anchor="middle" class="small">categor�a</text>
+
+  <line x1="150" y1="110" x2="190" y2="110" stroke="#007ACC" stroke-width="2"/>
+  <line x1="390" y1="110" x2="430" y2="72" stroke="#F9A825" stroke-width="2"/>
+  <line x1="390" y1="110" x2="430" y2="152" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="630" y1="72" x2="680" y2="72" stroke="#F9A825" stroke-width="2"/>
+  <line x1="630" y1="152" x2="680" y2="152" stroke="#2E7D32" stroke-width="2"/>
+
+  <text x="460" y="210" text-anchor="middle" class="muted">L_total = �_cls L_cls + �_reg L_reg   �   un objeto por imagen (sin NMS)</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320">
+  <style>
+    .title { font: 700 15px 'Segoe UI', sans-serif; fill: #007ACC; }
+    .label { font: 600 13px 'Segoe UI', sans-serif; fill: #1a1a1a; }
+    .small { font: 12px 'Segoe UI', sans-serif; fill: #333; }
+    .muted { font: 11px 'Segoe UI', sans-serif; fill: #555; }
+  </style>
+  <rect x="12" y="12" width="836" height="296" rx="12" fill="#F7FBFE" stroke="#007ACC" stroke-width="2"/>
+  <text x="430" y="40" text-anchor="middle" class="title">U-Net: encoder, decoder y skip connections</text>
+
+  <!-- Encoder -->
+  <rect x="50" y="70" width="90" height="70" rx="8" fill="#BBDEFB" stroke="#007ACC"/>
+  <text x="95" y="100" text-anchor="middle" class="label">64�64</text>
+  <text x="95" y="118" text-anchor="middle" class="small">16 filt.</text>
+
+  <rect x="50" y="155" width="90" height="55" rx="8" fill="#90CAF9" stroke="#007ACC"/>
+  <text x="95" y="180" text-anchor="middle" class="label">32�32</text>
+  <text x="95" y="196" text-anchor="middle" class="small">32 filt.</text>
+
+  <rect x="50" y="225" width="90" height="50" rx="8" fill="#64B5F6" stroke="#007ACC"/>
+  <text x="95" y="248" text-anchor="middle" class="label">16�16</text>
+  <text x="95" y="264" text-anchor="middle" class="small">cuello</text>
+
+  <!-- Decoder -->
+  <rect x="380" y="155" width="90" height="55" rx="8" fill="#FFE082" stroke="#F9A825"/>
+  <text x="425" y="180" text-anchor="middle" class="label">32�32</text>
+  <text x="425" y="196" text-anchor="middle" class="small">up + concat</text>
+
+  <rect x="380" y="70" width="90" height="70" rx="8" fill="#FFECB3" stroke="#F9A825"/>
+  <text x="425" y="100" text-anchor="middle" class="label">64�64</text>
+  <text x="425" y="118" text-anchor="middle" class="small">up + concat</text>
+
+  <rect x="560" y="70" width="110" height="70" rx="8" fill="#C8E6C9" stroke="#2E7D32"/>
+  <text x="615" y="100" text-anchor="middle" class="label">m�scara</text>
+  <text x="615" y="118" text-anchor="middle" class="small">H�W�C</text>
+
+  <!-- arrows down -->
+  <line x1="95" y1="140" x2="95" y2="155" stroke="#007ACC" stroke-width="2"/>
+  <line x1="95" y1="210" x2="95" y2="225" stroke="#007ACC" stroke-width="2"/>
+  <!-- bottleneck to decoder -->
+  <path d="M140 250 H240 V182 H380" fill="none" stroke="#F9A825" stroke-width="2"/>
+  <line x1="425" y1="155" x2="425" y2="140" stroke="#F9A825" stroke-width="2"/>
+  <line x1="470" y1="105" x2="560" y2="105" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- skips -->
+  <path d="M140 105 H300 V105 H380" fill="none" stroke="#2E7D32" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M140 182 H300 V182 H380" fill="none" stroke="#2E7D32" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="240" y="96" text-anchor="middle" class="muted">skip</text>
+  <text x="240" y="174" text-anchor="middle" class="muted">skip</text>
+
+  <text x="700" y="200" class="small">Los skips copian</text>
+  <text x="700" y="218" class="small">detalles (bordes)</text>
+  <text x="700" y="236" class="small">del encoder al decoder.</text>
+</svg>

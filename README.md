@@ -104,6 +104,7 @@ Ruta: [`Deep_Learning/Cuadernos/`](Deep_Learning/Cuadernos/)
 | 07 | [07_RNN.ipynb](Deep_Learning/Cuadernos/07_RNN.ipynb) | Redes neuronales recurrentes (RNN) |
 | 08 | [8_FT_TL.ipynb](Deep_Learning/Cuadernos/8_FT_TL.ipynb) | Fine-tuning y transfer learning |
 | 09 | [9_Autoencoders.ipynb](Deep_Learning/Cuadernos/9_Autoencoders.ipynb) | Autoencoders |
+| 10 | [10_Visión_Computadora.ipynb](Deep_Learning/Cuadernos/10_Visión_Computadora.ipynb) | Visión por computadora |
 
 ---
 
