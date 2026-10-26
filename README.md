@@ -31,6 +31,7 @@ Este repositorio reúne cuadernos didácticos que cubren desde los fundamentos d
 Material-Ciencia-de-Datos/
 ├── Machine_Learning/
 │   ├── 00_intro.ipynb … 10_Validaciones.ipynb   # Aprendizaje supervisado
+│   ├── Ejercicios/                              # Talleres prácticos (con Soluciones/)
 │   ├── Unsupervised/                            # Reducción de dimensión y clustering
 │   └── img/                                     # Imágenes de apoyo
 └── Deep_Learning/
@@ -59,6 +60,20 @@ Ruta: [`Machine_Learning/`](Machine_Learning/)
 | 08 | [08_árboles_decisión.ipynb](Machine_Learning/08_árboles_decisión.ipynb) | Árboles de decisión |
 | 09 | [09_ensamble.ipynb](Machine_Learning/09_ensamble.ipynb) | Métodos de ensamble |
 | 10 | [10_Validaciones.ipynb](Machine_Learning/10_Validaciones.ipynb) | Validación de modelos |
+
+### Ejercicios prácticos de Machine Learning
+
+Ruta: [`Machine_Learning/Ejercicios/`](Machine_Learning/Ejercicios/)
+
+| # | Cuaderno | Tema |
+|---|----------|------|
+| 01 | [01_Taller_Regresion_Clasificacion.ipynb](Machine_Learning/Ejercicios/01_Taller_Regresion_Clasificacion.ipynb) | Taller práctico: regresión lineal, logística, KNN, SVM y árboles; entrenamiento, evaluación e interpretación con datos públicos (costos médicos y diabetes Pima) |
+
+Soluciones en [`Machine_Learning/Ejercicios/Soluciones/`](Machine_Learning/Ejercicios/Soluciones/):
+
+| # | Cuaderno | Tema |
+|---|----------|------|
+| 01 | [01_Taller_Regresion_Clasificacion_Solucion.ipynb](Machine_Learning/Ejercicios/Soluciones/01_Taller_Regresion_Clasificacion_Solucion.ipynb) | Solución de referencia del taller de regresión y clasificación |
 
 ---
 
