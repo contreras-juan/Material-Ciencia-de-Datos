@@ -31,8 +31,9 @@ Este repositorio reúne cuadernos didácticos que cubren desde los fundamentos d
 ```text
 Material-Ciencia-de-Datos/
 ├── Machine_Learning/
-│   ├── 00_intro.ipynb … 12_Desbalanceo_Clases.ipynb   # Aprendizaje supervisado
-│   ├── Ejercicios/                              # Talleres prácticos (con Soluciones/)
+│   ├── Supervised/                              # Aprendizaje supervisado
+│   │   ├── 00_intro.ipynb … 12_Desbalanceo_Clases.ipynb
+│   │   └── Ejercicios/                          # Talleres prácticos (con Soluciones/)
 │   ├── Unsupervised/                            # Reducción de dimensión y clustering
 │   └── img/                                     # Imágenes de apoyo
 └── Deep_Learning/
@@ -47,38 +48,38 @@ Material-Ciencia-de-Datos/
 
 ## Machine Learning supervisado
 
-Ruta: [`Machine_Learning/`](Machine_Learning/)
+Ruta: [`Machine_Learning/Supervised/`](Machine_Learning/Supervised/)
 
 | # | Cuaderno | Tema |
 |---|----------|------|
-| 00 | [00_intro.ipynb](Machine_Learning/00_intro.ipynb) | Introducción al Machine Learning |
-| 01 | [01_Regresión_Lineal.ipynb](Machine_Learning/01_Regresión_Lineal.ipynb) | Regresión lineal |
-| 02 | [02_Regresión_Lineal_II.ipynb](Machine_Learning/02_Regresión_Lineal_II.ipynb) | Regresión lineal II |
-| 03 | [03_Regresión_Lineal_III.ipynb](Machine_Learning/03_Regresión_Lineal_III.ipynb) | Regresión lineal III |
-| 04 | [04_Regresión_Logística.ipynb](Machine_Learning/04_Regresión_Logística.ipynb) | Regresión logística |
-| 05 | [05_Matriz_Confusión.ipynb](Machine_Learning/05_Matriz_Confusión.ipynb) | Matriz de confusión |
-| 06 | [06_SVM.ipynb](Machine_Learning/06_SVM.ipynb) | Máquinas de soporte vectorial (SVM) |
-| 07 | [07_KNN.ipynb](Machine_Learning/07_KNN.ipynb) | K vecinos más cercanos (KNN) |
-| 08 | [08_árboles_decisión.ipynb](Machine_Learning/08_árboles_decisión.ipynb) | Árboles de decisión |
-| 09 | [09_ensamble.ipynb](Machine_Learning/09_ensamble.ipynb) | Métodos de ensamble |
-| 10 | [10_Validaciones.ipynb](Machine_Learning/10_Validaciones.ipynb) | Validación de modelos |
-| 11 | [11_SHAP.ipynb](Machine_Learning/11_SHAP.ipynb) | Interpretabilidad con valores SHAP |
-| 12 | [12_Desbalanceo_Clases.ipynb](Machine_Learning/12_Desbalanceo_Clases.ipynb) | Desbalanceo de clases: métricas, remuestreo, pesos, umbral y simulaciones por modelo |
+| 00 | [00_intro.ipynb](Machine_Learning/Supervised/00_intro.ipynb) | Introducción al Machine Learning |
+| 01 | [01_Regresión_Lineal.ipynb](Machine_Learning/Supervised/01_Regresión_Lineal.ipynb) | Regresión lineal |
+| 02 | [02_Regresión_Lineal_II.ipynb](Machine_Learning/Supervised/02_Regresión_Lineal_II.ipynb) | Regresión lineal II |
+| 03 | [03_Regresión_Lineal_III.ipynb](Machine_Learning/Supervised/03_Regresión_Lineal_III.ipynb) | Regresión lineal III |
+| 04 | [04_Regresión_Logística.ipynb](Machine_Learning/Supervised/04_Regresión_Logística.ipynb) | Regresión logística |
+| 05 | [05_Matriz_Confusión.ipynb](Machine_Learning/Supervised/05_Matriz_Confusión.ipynb) | Matriz de confusión |
+| 06 | [06_SVM.ipynb](Machine_Learning/Supervised/06_SVM.ipynb) | Máquinas de soporte vectorial (SVM) |
+| 07 | [07_KNN.ipynb](Machine_Learning/Supervised/07_KNN.ipynb) | K vecinos más cercanos (KNN) |
+| 08 | [08_árboles_decisión.ipynb](Machine_Learning/Supervised/08_árboles_decisión.ipynb) | Árboles de decisión |
+| 09 | [09_ensamble.ipynb](Machine_Learning/Supervised/09_ensamble.ipynb) | Métodos de ensamble |
+| 10 | [10_Validaciones.ipynb](Machine_Learning/Supervised/10_Validaciones.ipynb) | Validación de modelos |
+| 11 | [11_SHAP.ipynb](Machine_Learning/Supervised/11_SHAP.ipynb) | Interpretabilidad con valores SHAP |
+| 12 | [12_Desbalanceo_Clases.ipynb](Machine_Learning/Supervised/12_Desbalanceo_Clases.ipynb) | Desbalanceo de clases: métricas, remuestreo, pesos, umbral y simulaciones por modelo |
 
 ### Ejercicios prácticos de Machine Learning
 
-Ruta: [`Machine_Learning/Ejercicios/`](Machine_Learning/Ejercicios/)
+Ruta: [`Machine_Learning/Supervised/Ejercicios/`](Machine_Learning/Supervised/Ejercicios/)
 
 | # | Cuaderno | Tema |
 |---|----------|------|
-| 01 | [01_Taller_Regresion_Clasificacion.ipynb](Machine_Learning/Ejercicios/01_Taller_Regresion_Clasificacion.ipynb) | Taller práctico: regresión lineal, logística, KNN, SVM y árboles; entrenamiento, evaluación e interpretación con datos públicos (costos médicos y diabetes Pima) |
+| 01 | [01_Taller_Regresion_Clasificacion.ipynb](Machine_Learning/Supervised/Ejercicios/01_Taller_Regresion_Clasificacion.ipynb) | Taller práctico: regresión lineal, logística, KNN, SVM y árboles; entrenamiento, evaluación e interpretación con datos públicos (costos médicos y diabetes Pima) |
 
-Soluciones en [`Machine_Learning/Ejercicios/Soluciones/`](Machine_Learning/Ejercicios/Soluciones/):
+Soluciones en [`Machine_Learning/Supervised/Ejercicios/Soluciones/`](Machine_Learning/Supervised/Ejercicios/Soluciones/):
 
 | # | Cuaderno | Tema |
 |---|----------|------|
-| 01 | [01_Taller_Regresion_Clasificacion_Solucion.ipynb](Machine_Learning/Ejercicios/Soluciones/01_Taller_Regresion_Clasificacion_Solucion.ipynb) | Solución de referencia del taller de regresión y clasificación |
-| 02 | [12_Desbalanceo_Clases_Solucion.ipynb](Machine_Learning/Ejercicios/Soluciones/12_Desbalanceo_Clases_Solucion.ipynb) | Solución de los ejercicios del cuaderno de desbalanceo de clases |
+| 01 | [01_Taller_Regresion_Clasificacion_Solucion.ipynb](Machine_Learning/Supervised/Ejercicios/Soluciones/01_Taller_Regresion_Clasificacion_Solucion.ipynb) | Solución de referencia del taller de regresión y clasificación |
+| 02 | [12_Desbalanceo_Clases_Solucion.ipynb](Machine_Learning/Supervised/Ejercicios/Soluciones/12_Desbalanceo_Clases_Solucion.ipynb) | Solución de los ejercicios del cuaderno de desbalanceo de clases |
 
 ---
 
