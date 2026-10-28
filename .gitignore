@@ -3,3 +3,9 @@
 *.keras
 *.h5
 *.weights.h5
+
+# MLflow (cuadernos 13 y 14)
+mlflow.db
+mlruns/
+mlartifacts/
+peticion.json

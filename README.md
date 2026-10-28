@@ -65,6 +65,8 @@ Ruta: [`Machine_Learning/Supervised/`](Machine_Learning/Supervised/)
 | 10 | [10_Validaciones.ipynb](Machine_Learning/Supervised/10_Validaciones.ipynb) | Validación de modelos |
 | 11 | [11_SHAP.ipynb](Machine_Learning/Supervised/11_SHAP.ipynb) | Interpretabilidad con valores SHAP |
 | 12 | [12_Desbalanceo_Clases.ipynb](Machine_Learning/Supervised/12_Desbalanceo_Clases.ipynb) | Desbalanceo de clases: métricas, remuestreo, pesos, umbral y simulaciones por modelo |
+| 13 | [13_MLflow_Tracking.ipynb](Machine_Learning/Supervised/13_MLflow_Tracking.ipynb) | MLflow: seguimiento de experimentos (parámetros, métricas, artefactos, corridas anidadas, reproducibilidad) |
+| 14 | [14_MLflow_Autolog_Modelos.ipynb](Machine_Learning/Supervised/14_MLflow_Autolog_Modelos.ipynb) | MLflow: autolog, firma de modelos, Model Registry con alias y servicio REST |
 
 ### Ejercicios prácticos de Machine Learning
 
@@ -182,6 +184,7 @@ Entorno recomendado con Python 3 y las librerías habituales del stack de cienci
 
 - `numpy`, `pandas`, `matplotlib`, `seaborn`
 - `scikit-learn`
+- `mlflow` (cuadernos 13 y 14 de aprendizaje supervisado)
 - `tensorflow` / `keras` (para la sección de Deep Learning)
 - Librerías de reducción de dimensión según el cuaderno (`umap-learn`, etc.)
 
