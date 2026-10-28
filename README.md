@@ -14,6 +14,7 @@ Autor: [Juan Felipe Contreras](https://www.linkedin.com/in/juanf-contreras/)
 - [Machine Learning no supervisado](#machine-learning-no-supervisado)
 - [Deep Learning](#deep-learning)
 - [Ejercicios prácticos de Deep Learning](#ejercicios-prácticos-de-deep-learning)
+- [Proyecto final](#proyecto-final)
 - [Cómo usar este material](#cómo-usar-este-material)
 - [Requisitos](#requisitos)
 
@@ -30,14 +31,15 @@ Este repositorio reúne cuadernos didácticos que cubren desde los fundamentos d
 ```text
 Material-Ciencia-de-Datos/
 ├── Machine_Learning/
-│   ├── 00_intro.ipynb … 10_Validaciones.ipynb   # Aprendizaje supervisado
+│   ├── 00_intro.ipynb … 12_Desbalanceo_Clases.ipynb   # Aprendizaje supervisado
 │   ├── Ejercicios/                              # Talleres prácticos (con Soluciones/)
 │   ├── Unsupervised/                            # Reducción de dimensión y clustering
 │   └── img/                                     # Imágenes de apoyo
 └── Deep_Learning/
-    ├── Cuadernos/                               # Redes neuronales, CNN y RNN
+    ├── Cuadernos/                               # Redes neuronales, CNN, RNN, visión, destilación
     ├── Ejercicios/                              # Talleres prácticos para estudiantes
     │   └── Soluciones/                          # Soluciones de referencia
+    ├── Proyecto_Final.docx                      # Especificación y grilla del proyecto de cierre
     └── img/                                     # Imágenes de apoyo
 ```
 
@@ -60,6 +62,8 @@ Ruta: [`Machine_Learning/`](Machine_Learning/)
 | 08 | [08_árboles_decisión.ipynb](Machine_Learning/08_árboles_decisión.ipynb) | Árboles de decisión |
 | 09 | [09_ensamble.ipynb](Machine_Learning/09_ensamble.ipynb) | Métodos de ensamble |
 | 10 | [10_Validaciones.ipynb](Machine_Learning/10_Validaciones.ipynb) | Validación de modelos |
+| 11 | [11_SHAP.ipynb](Machine_Learning/11_SHAP.ipynb) | Interpretabilidad con valores SHAP |
+| 12 | [12_Desbalanceo_Clases.ipynb](Machine_Learning/12_Desbalanceo_Clases.ipynb) | Desbalanceo de clases: métricas, remuestreo, pesos, umbral y simulaciones por modelo |
 
 ### Ejercicios prácticos de Machine Learning
 
@@ -74,6 +78,7 @@ Soluciones en [`Machine_Learning/Ejercicios/Soluciones/`](Machine_Learning/Ejerc
 | # | Cuaderno | Tema |
 |---|----------|------|
 | 01 | [01_Taller_Regresion_Clasificacion_Solucion.ipynb](Machine_Learning/Ejercicios/Soluciones/01_Taller_Regresion_Clasificacion_Solucion.ipynb) | Solución de referencia del taller de regresión y clasificación |
+| 02 | [12_Desbalanceo_Clases_Solucion.ipynb](Machine_Learning/Ejercicios/Soluciones/12_Desbalanceo_Clases_Solucion.ipynb) | Solución de los ejercicios del cuaderno de desbalanceo de clases |
 
 ---
 
@@ -120,6 +125,7 @@ Ruta: [`Deep_Learning/Cuadernos/`](Deep_Learning/Cuadernos/)
 | 08 | [8_FT_TL.ipynb](Deep_Learning/Cuadernos/8_FT_TL.ipynb) | Fine-tuning y transfer learning |
 | 09 | [9_Autoencoders.ipynb](Deep_Learning/Cuadernos/9_Autoencoders.ipynb) | Autoencoders |
 | 10 | [10_Visión_Computadora.ipynb](Deep_Learning/Cuadernos/10_Visión_Computadora.ipynb) | Visión por computadora |
+| 11 | [11_Destilación_Conocimiento.ipynb](Deep_Learning/Cuadernos/11_Destilación_Conocimiento.ipynb) | Destilación de conocimiento |
 
 ---
 
@@ -144,6 +150,16 @@ Ruta: [`Deep_Learning/Ejercicios/Soluciones/`](Deep_Learning/Ejercicios/Solucion
 | 02 | [02_Taller_Convoluciones_y_CNN_Solucion.ipynb](Deep_Learning/Ejercicios/Soluciones/02_Taller_Convoluciones_y_CNN_Solucion.ipynb) | Solución de referencia del taller de convoluciones y CNN |
 | 03 | [03_Taller_RNN_LSTM_Solucion.ipynb](Deep_Learning/Ejercicios/Soluciones/03_Taller_RNN_LSTM_Solucion.ipynb) | Solución de referencia del taller de RNN/LSTM |
 | 04 | [04_Taller_Autoencoders_Solucion.ipynb](Deep_Learning/Ejercicios/Soluciones/04_Taller_Autoencoders_Solucion.ipynb) | Solución de referencia del taller de autoencoders |
+
+---
+
+## Proyecto final
+
+Ruta: [`Deep_Learning/Proyecto_Final.docx`](Deep_Learning/Proyecto_Final.docx)
+
+Trabajo de cierre del módulo de Deep Learning: el equipo elige un **dataset nuevo** (no el de las notas ni de los talleres), formula un problema, entrena y evalúa un modelo en Keras anclado a uno o más conceptos del módulo, y lo presenta.
+
+El documento incluye alcance, datasets prohibidos, entregables (notebook y exposición) y una **grilla sobre 5.0** (problema, datos, baseline, modelo, evaluación, reproducibilidad y presentación).
 
 ---
 
