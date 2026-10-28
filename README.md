@@ -31,7 +31,7 @@ Este repositorio reúne cuadernos didácticos que cubren desde los fundamentos d
 ```text
 Material-Ciencia-de-Datos/
 ├── Machine_Learning/
-│   ├── 00_intro.ipynb … 11_SHAP.ipynb           # Aprendizaje supervisado
+│   ├── 00_intro.ipynb … 12_Desbalanceo_Clases.ipynb   # Aprendizaje supervisado
 │   ├── Ejercicios/                              # Talleres prácticos (con Soluciones/)
 │   ├── Unsupervised/                            # Reducción de dimensión y clustering
 │   └── img/                                     # Imágenes de apoyo
@@ -63,6 +63,7 @@ Ruta: [`Machine_Learning/`](Machine_Learning/)
 | 09 | [09_ensamble.ipynb](Machine_Learning/09_ensamble.ipynb) | Métodos de ensamble |
 | 10 | [10_Validaciones.ipynb](Machine_Learning/10_Validaciones.ipynb) | Validación de modelos |
 | 11 | [11_SHAP.ipynb](Machine_Learning/11_SHAP.ipynb) | Interpretabilidad con valores SHAP |
+| 12 | [12_Desbalanceo_Clases.ipynb](Machine_Learning/12_Desbalanceo_Clases.ipynb) | Desbalanceo de clases: métricas, remuestreo, pesos, umbral y simulaciones por modelo |
 
 ### Ejercicios prácticos de Machine Learning
 
@@ -77,6 +78,7 @@ Soluciones en [`Machine_Learning/Ejercicios/Soluciones/`](Machine_Learning/Ejerc
 | # | Cuaderno | Tema |
 |---|----------|------|
 | 01 | [01_Taller_Regresion_Clasificacion_Solucion.ipynb](Machine_Learning/Ejercicios/Soluciones/01_Taller_Regresion_Clasificacion_Solucion.ipynb) | Solución de referencia del taller de regresión y clasificación |
+| 02 | [12_Desbalanceo_Clases_Solucion.ipynb](Machine_Learning/Ejercicios/Soluciones/12_Desbalanceo_Clases_Solucion.ipynb) | Solución de los ejercicios del cuaderno de desbalanceo de clases |
 
 ---
 
