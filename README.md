@@ -30,7 +30,7 @@ Este repositorio reúne cuadernos didácticos que cubren desde los fundamentos d
 ```text
 Material-Ciencia-de-Datos/
 ├── Machine_Learning/
-│   ├── 00_intro.ipynb … 10_Validaciones.ipynb   # Aprendizaje supervisado
+│   ├── 00_intro.ipynb … 11_SHAP.ipynb           # Aprendizaje supervisado
 │   ├── Ejercicios/                              # Talleres prácticos (con Soluciones/)
 │   ├── Unsupervised/                            # Reducción de dimensión y clustering
 │   └── img/                                     # Imágenes de apoyo
@@ -60,6 +60,7 @@ Ruta: [`Machine_Learning/`](Machine_Learning/)
 | 08 | [08_árboles_decisión.ipynb](Machine_Learning/08_árboles_decisión.ipynb) | Árboles de decisión |
 | 09 | [09_ensamble.ipynb](Machine_Learning/09_ensamble.ipynb) | Métodos de ensamble |
 | 10 | [10_Validaciones.ipynb](Machine_Learning/10_Validaciones.ipynb) | Validación de modelos |
+| 11 | [11_SHAP.ipynb](Machine_Learning/11_SHAP.ipynb) | Interpretabilidad con valores SHAP |
 
 ### Ejercicios prácticos de Machine Learning
 
